@@ -3,8 +3,7 @@ package sort.basic;
 import utils.StdRandom;
 
 /**
- * �����㷨��һЩ����������
- * ��Ƚϣ��������Ƿ��������������
+ * edit by Original Example
  *
  */
 public class BasicSort {
@@ -18,7 +17,7 @@ public class BasicSort {
 		a[j] = temp;
 	}
 	/**
-	 * �������������Ƿ��С��������
+	 * judge if the arrays is sorted.
 	 */
 	public static boolean isSorted(Comparable[] a){
 		for (int i = 1; i < a.length; i++) {
